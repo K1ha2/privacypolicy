@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy</title>
+  <title>Privacy Policy – Noesis</title>
   <style>
     :root {
-      --primary-color: #2c3e50;
-      --accent-color: #3498db;
-      --bg-color: #f5f7fa;
-      --text-color: #333;
+      --color-primary: #2c3e50;
+      --color-accent: #3498db;
+      --color-bg: #f8f9fa;
+      --color-text: #333;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     * {
@@ -18,28 +19,33 @@
 
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
+      font-family: var(--font);
+      background: var(--color-bg);
+      color: var(--color-text);
       line-height: 1.7;
     }
 
     header {
-      background-color: var(--primary-color);
+      background: var(--color-primary);
       color: #fff;
-      padding: 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
     }
 
     main {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 0 1.5rem;
     }
 
     section {
@@ -47,26 +53,38 @@
     }
 
     h2 {
-      color: var(--primary-color);
+      color: var(--color-primary);
       font-size: 1.4rem;
-      border-bottom: 2px solid var(--accent-color);
+      border-bottom: 2px solid var(--color-accent);
       padding-bottom: 0.4rem;
     }
 
     a {
-      color: var(--accent-color);
+      color: var(--color-accent);
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    a:focus {
       text-decoration: underline;
     }
 
     footer {
       text-align: center;
-      padding: 1rem;
       font-size: 0.9rem;
-      color: #888;
+      color: #777;
+      padding: 1.5rem 0;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      main {
+        padding: 0 1rem;
+      }
     }
   </style>
 </head>
@@ -74,46 +92,49 @@
 
   <header>
     <h1>Privacy Policy</h1>
-    <p>Protecting your data with care and transparency</p>
+    <p>Your data privacy matters. Transparent & GDPR-compliant.</p>
   </header>
 
   <main>
-    <section id="en">
+    <section id="english">
       <h2>🇬🇧 English</h2>
       <p>
-        We take your privacy seriously. If you use our app to make a payment and enter your banking or payment details, this data is used solely to process and secure the transaction.
-        This includes actions such as account verification or integration with trusted payment processors like Stripe Financial Connections.
+        We take the protection of your personal data seriously. When you use our app to make payments and enter your banking details, this information is used solely to process and secure your transaction.
+        This includes verifying account ownership or using trusted providers such as Stripe Financial Connections.
       </p>
       <p>
-        We do not store complete banking information on our servers. All processing is performed through certified third-party providers, in compliance with GDPR regulations.
-        Your data is never shared unless strictly necessary to fulfill the transaction.
+        We do not store full bank account information on our servers. All data is handled via certified third parties in compliance with the GDPR. Your data is never shared with third parties unless it’s required to complete the transaction.
       </p>
       <p>
-        If you have any questions, feel free to contact us:<br>
-        <strong>Email:</strong> <a href="mailto:noesis.ai@icloud.com">noesis.ai@icloud.com</a>
+        For questions or data-related concerns, please contact us:<br />
+        <strong>Email:</strong> 
+        <a href="mailto:noesis.ai@icloud.com" target="_blank" rel="noopener noreferrer">
+          noesis.ai@icloud.com
+        </a>
       </p>
     </section>
 
-    <section id="de">
+    <section id="deutsch">
       <h2>🇩🇪 Deutsch</h2>
       <p>
-        Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wenn Sie in unserer App Zahlungen durchführen und Bankdaten angeben, werden diese ausschließlich zur sicheren Abwicklung verwendet.
-        Dazu gehören z. B. die Verifizierung des Kontoinhabers oder die Integration mit Zahlungsdiensten wie Stripe Financial Connections.
+        Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wenn Sie über unsere App Zahlungen tätigen und Bankinformationen angeben, werden diese ausschließlich zur sicheren Abwicklung der Transaktion verwendet.
+        Dazu gehört zum Beispiel die Verifizierung der Kontoinhaberschaft oder die Nutzung vertrauenswürdiger Zahlungsanbieter wie Stripe Financial Connections.
       </p>
       <p>
-        Wir speichern keine vollständigen Bankverbindungen auf unseren Servern. Die Verarbeitung erfolgt ausschließlich über zertifizierte Drittanbieter und gemäß der DSGVO.
-        Ihre Daten werden niemals weitergegeben, es sei denn, dies ist zur Vertragsabwicklung erforderlich.
+        Wir speichern keine vollständigen Bankdaten auf unseren Servern. Die Verarbeitung erfolgt ausschließlich über zertifizierte Drittanbieter und gemäß der DSGVO. Ihre Daten werden niemals an Dritte weitergegeben, außer zur Durchführung des Vertrags.
       </p>
       <p>
-        Bei Fragen kontaktieren Sie uns bitte unter:<br>
-        <strong>E‑Mail:</strong> <a href="mailto:noesis.ai@icloud.com">noesis.ai@icloud.com</a>
+        Bei Fragen oder Anliegen zur Datenverarbeitung kontaktieren Sie uns bitte:<br />
+        <strong>E‑Mail:</strong> 
+        <a href="mailto:noesis.ai@icloud.com" target="_blank" rel="noopener noreferrer">
+          noesis.ai@icloud.com
+        </a>
       </p>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Noesis App – All rights reserved.
+    &copy; 2025 Noesis App. All rights reserved.
   </footer>
 </body>
 </html>
-
